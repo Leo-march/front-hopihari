@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded',  async function () {
 
             const grid = document.querySelector(".rides-grid");
             grid.innerHTML = grid.innerHTML + `<div class="ride-card">
-                <div class="ride-image" style="background-image: url('https://blog.hopihari.com.br/wp-content/uploads/2023/05/69B87BD5-2250-401E-9670-D4044CA70B90-1024x683.jpg')"></div>
+                <div class="ride-image" style="background-image: url('../imagem/${brinquedo.image}')"></div>
                 <div class="ride-info">
                     <h3 class="ride-name">${brinquedo.name}</h3>
                     <div class="ride-time">${brinquedo.waiting_time}</div>
